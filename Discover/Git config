@@ -1,0 +1,14 @@
+Sua Identidade
+Assim que instalar o Git, abra o terminal e digite
+
+git config --global user.name " Seu nome completo aqui Entre Aspas"
+git config --global user.email seuemailaqui@dominio.com.br
+
+Editor 
+Voce podera trocar o editar padrão que é o vim, por outro
+git config --global core.editor "code -w"
+
+Ver configuraçoes 
+Voce poderá verificar suas consfiguracoes.
+git config --list
+

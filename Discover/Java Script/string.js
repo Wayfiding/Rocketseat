@@ -1,0 +1,2 @@
+// Strings
+console.log('Mayk')
