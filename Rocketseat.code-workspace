@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Discover"
+		},
+		{
+			"path": "NLW"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Discover"
+	}
+}
