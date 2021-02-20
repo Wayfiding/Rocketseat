@@ -23,36 +23,19 @@ const Modal = {
 // remover das entradas o valor das saídas
 // assim, eu terei o total. 
 
-
+const Storage = {
+    get() {
+        return JSON.parse(localStorage.getItem("dev.finances:transactions")) || 
+        []
+    },
+    set(transactions) {
+        localStorage.setItem("dev.finances:transactions", JSON.stringify(transactions))
+    }
+}
 
 const Transaction = {
-    all: transactions = [
-        {
-            
-            description: 'Luz',
-            amount: -50001,
-            date:'23/01/2021',
-        },
-        {
-            
-            description: 'Website',
-            amount: 500000,
-            date:'23/01/2021',
-        },
-        {
-            
-            description: 'Internet',
-            amount: -20012,
-            date:'23/01/2021',
-        },
-        {
-            
-            description: 'App',
-            amount: 200000,
-            date:'23/01/2021',
-        },
-       
-    ],
+    all: Storage.get(),
+
     add(transaction) {
         Transaction.all.push(transaction)
 
@@ -104,11 +87,12 @@ const DOM = {
     addTransaction(transaction, index){
         
         const tr = document.createElement('tr')
-        tr.innerHTML = DOM.innerHTMLTransaction(transaction)
+        tr.innerHTML = DOM.innerHTMLTransaction(transaction,index)
+        tr.dataset.index = index
 
         DOM.transactionsContainer.appendChild(tr)
     },
-    innerHTMLTransaction(transaction) {
+    innerHTMLTransaction(transaction,index) {
 
         const CSSclass = transaction.amount > 0 ? "income" : "expense"
 
@@ -120,7 +104,7 @@ const DOM = {
             <td class="${CSSclass}">${amount}</td>
             <td class="date">${transaction.date}</td>
                 <td>
-                    <img src="./assets/minus.svg" alt="Remover Transaçao">
+                    <img onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover Transaçao">
                 </td>
         
                 
@@ -141,8 +125,8 @@ const DOM = {
     
 const Utils = {
     formatAmount(value) {
-        value = Number(value) * 100
-        return value
+        value = value * 100
+        return Math.round(value)
     },
     formatDate(date) {
         const splitteDate = date.split("-")
@@ -202,6 +186,12 @@ const Form = {
             date
         }
     },
+
+    clearFields() {
+            Form.description.value = ""
+            Form.amount.value = ""
+            Form.date.value = ""
+    },
     submit(event){
         event.preventDefault()
 
@@ -212,6 +202,9 @@ const Form = {
             const transaction = Form.formatValues()
             // salvar 
             Transaction.add(transaction)
+            Form.clearFields()
+            Modal.close()
+            // Já tem App Reaload no add
             // apagar os dados do formulario
             // modal fechar 
             // Atualizar a aplicação
@@ -224,17 +217,19 @@ const Form = {
 }
 
 
+
+
 const App ={
 
     init() {
-        Transaction.all.forEach(function(transaction){
-        DOM.addTransaction(transaction)
+        Transaction.all.forEach(function(transaction, index){
+        DOM.addTransaction(transaction,index)
     }) 
     
     DOM.updateBalance()
     
     
-    
+    Storage.set(Transaction.all)
 
     },
     reload() {
@@ -242,6 +237,7 @@ const App ={
         App.init()
     },
 }
+
 
 
 App.init()
