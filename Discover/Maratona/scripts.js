@@ -239,6 +239,30 @@ const App ={
 }
 
 
+/* Dark-mode ======================================================================*/
+
+function dark_mode() {
+
+    document.querySelector('header').classList.toggle("dark-mode");
+    
+    document.querySelector('body').classList.toggle("gray-mode");
+    let cards = document.querySelectorAll('.card');
+    
+    for( var i = 0; i < cards.length ; i++) {
+
+        cards[i].classList.toggle("gray-mode");
+        
+    }
+
+    let table_head = document.querySelectorAll('th');
+    for( var i = 0; i < table_head.length ; i++) {
+
+        table_head[i].classList.toggle("dark-mode");
+        
+    }
+}
+
+
 
 App.init()
 
