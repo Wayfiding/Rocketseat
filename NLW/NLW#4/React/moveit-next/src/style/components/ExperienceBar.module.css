@@ -18,10 +18,10 @@
     position: relative;
 }
 
-.experienceBar >div > div {
+.experienceBar > div > div  {
     height: 4px;
     border-radius: 4px;
-    background: var(--gren)
+    background: var(--green)
 
 }
 
