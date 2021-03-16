@@ -20,19 +20,21 @@ import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 
 
-export default function Home(props) {
-
+export default function Home(props ) {
+  
   
   return (
+    
     <ChallengesProvider
     level={props.level}
     currentExperience={props.currentExperience}
     challengesCompleted={props.challengesCompleted}>
     <div className={styles.container}>
-
+    
       <Head>
         <title> Inicio | move.it </title>
       </Head>
+     
      
       <ExperienceBar />
       <CountdownProvider>
@@ -44,10 +46,13 @@ export default function Home(props) {
         </div>
         <div>
           <ChallengeBox/>
+          
         </div>
       </section>
       </CountdownProvider>
+      
     </div>
+   
     </ChallengesProvider>
   )
 }

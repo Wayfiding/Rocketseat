@@ -1,0 +1,113 @@
+.sidebarContainer {
+    background-image: linear-gradient(var(--shape),var(--background));
+    height: 100vh;
+    width: 5rem;
+    min-width: 5rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header img {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 4.5rem;
+    cursor: alias;
+  }
+  .nav ul {
+    list-style: none;
+  }
+  .nav ul li {
+    text-align: center;
+    position: relative;
+    padding: .5rem 0;
+    margin: .5rem 0;
+  }
+  
+  .nav li.active:before {
+    content: " ";
+    display: block;
+    background: var(--green);
+    width: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .nav li a svg {
+    fill: var(--text);
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  .nav li.active a svg {
+    fill: var(--green);
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    font-size: 1rem;
+    line-height: 2;
+    color: var(--text)
+  }
+  
+  
+  @media(max-width: 767px) {
+    .sidebarContainer {
+      background-image: none;
+      background-color: var(--shape);
+      height: 5rem;
+      width: 100vw;
+      min-width: 100%;
+      flex-direction: row;
+    }
+  
+    .header img {
+      margin-top: -10px;
+    }
+  
+    .nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      height: 100%;
+    }
+  
+    .nav ul li {
+      padding: 0 .5rem;
+      margin: 0 .5rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav li.active:before {
+      width: 100%;
+      height: 4px;
+      border-radius: 0 0 5px 5px;
+    }
+  
+    .footer {
+      padding: 0 2rem;
+    }
+  }
