@@ -5,9 +5,12 @@
 		},
 		{
 			"path": "NLW"
+		},
+		{
+			"path": "Insta_Post"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Discover"
+		"liveServer.settings.multiRootWorkspaceName": "Insta_Post"
 	}
 }
