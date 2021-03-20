@@ -39,9 +39,26 @@ So RESTful, is a application on REST standards.
 
  - Use verbs HTTP for our requests
  - Use plural or ssingular on endpoints creation? This doesn't matter implement a standard
+ - Dont leave '/' on the final endpoint.
+ - Never leave your client without response.
 
 ### Verbs HTTP 
 GET : Receive data from a Resource
 POST : Send data or informaton to be proccessed by a Resource.
 PUT  : Refresh a data from a Resource
 DELETE : Delete a Resource
+
+
+## Response Status
+
+- 1xx: Information
+- 2xx: Success 
+    - 200: Ok
+    - 201: Created
+    - 204: Don't Have information PUT,POST and DELETE. 
+- 3xx: Redirection
+- 4xx: Client Error
+    - 400: Bad Request
+    - 404: Not Found!
+- 5xx: Server Error
+    - 500: Internal Server Error
