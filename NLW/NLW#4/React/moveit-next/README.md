@@ -29,7 +29,7 @@ Access http://localhost:3000, to use this application
 
 👤 **Alberto Junior**
 
-* Website: Alberto Junior
+* Website: moveit-next
 
 ## Show your support
 
