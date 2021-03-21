@@ -8,6 +8,21 @@
 		},
 		{
 			"path": "Insta_Post"
+		},
+		{
+			"path": "API"
+		},
+		{
+			"path": "SQL_NODE.JS_SEQUILIZE"
+		},
+		{
+			"path": "DOCKERNODE"
+		},
+		{
+			"path": "CRUD_12MIN"
+		},
+		{
+			"path": "serie-node"
 		}
 	],
 	"settings": {
