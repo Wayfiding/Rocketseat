@@ -12,4 +12,4 @@ router.get('/',(req,res) => {
 
 
 
-module.exports = app => app.use('/projects', router)
+module.exports = app => app.use('/projects', router);
