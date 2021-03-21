@@ -26,8 +26,7 @@
   font-size: 8.75rem;
   font-weight: 600;
   color: var(--blue);
-  background: url('/NLW#4/public/icons/levelup.svg') no reapeat
-    center;
+  background: url('/icons/levelup.svg') no reapeatcenter;
   background-size: contain;
 }
 
