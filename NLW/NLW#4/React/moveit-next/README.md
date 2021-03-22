@@ -20,7 +20,7 @@
 ### 🏠 [Homepage](https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
 
 
-## [](https://github.com/wayfiding/Rocketseat/moveit-next#--About):page_facing_up: About
+## :page_facing_up: About
 This project is cronometer that use the pomodoro technique and at the end of each cycle the user receives a challenge, this challenges has the purpose of reduct the injuries for repetitive movement. That application was developed during NLW#4 - React Track, offered by Rocketseat over 5 days of marathon.
 
 
@@ -35,7 +35,7 @@ When the cycles focus ends, the user is informed by a new challenge and his poin
 For Each level advance are exhibited a modal with the new level achieved. If the page is update, the information will be recovered by the cookies.
 
 
-## [](https://github.com/wayfiding/Rocketseat/moveit-next#--How-to-use-this-application):space_invader: How to use this application
+## :space_invader: How to use this application
 
 
 ### Pre-Requires
