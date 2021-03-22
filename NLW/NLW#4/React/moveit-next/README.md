@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
- <a href="https://github.com/Wayfiding/Rocketseat/blob/main/NLW/NLW%234/React/moveit-next/README.md#page_facing_up-about">About</a> •
- <a href="https://github.com/Wayfiding/Rocketseat/tree/main/NLW/NLW%234/React/moveit-next#dart-function">Function</a> •
+ <a href="##page_facing_up-about">About</a> •
+ <a href="##dart-function">Function</a> •
  <a href="https://github.com/Wayfiding/Rocketseat/blob/main/NLW/NLW%234/React/moveit-next/README.md#dart-function">How to use this application</a> •
  <a href="#Technologies-Used">Technologies Used</a> •
   <a href="#layout">Application Layout</a> •
