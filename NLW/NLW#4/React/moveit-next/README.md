@@ -26,7 +26,7 @@ This project is cronometer that use the pomodoro technique and at the end of eac
 
 
 
-## [](https://github.com/wayfiding/Rocketseat/moveit-next#--Function):dart: Function
+## :dart: Function
 
 This application requires a permition to send notification, which need to be allowed by the user. It function ís notify the user the end of the cycle. In addition of this sound notification there is visual notification.
 
