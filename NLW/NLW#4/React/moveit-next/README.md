@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
- <a href="#-about">About</a> •
- <a href="#-function">Function</a> •
- <a href="#-how-to-use-this-application">How to use this application</a> •
+ <a href="#page_facing_up-about">About</a> •
+ <a href="#dart-function">Function</a> •
+ <a href="#space_invader-how-to-use-this-application">How to use this application</a> •
  <a href="#-technologies-Used">Technologies Used</a> •
   <a href="#layout">Application Layout</a> •
 </p>
