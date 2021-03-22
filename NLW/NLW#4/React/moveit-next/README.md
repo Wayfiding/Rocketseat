@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
- <a href="#--About">About</a> •
- <a href="#--Function">Function</a> •
- <a href="#--How-to-use-this-application">How to use this application</a> •
- <a href="#--Technologies-Used">Technologies Used</a> •
-  <a href="#--layout">Application Layout</a> •
+ <a href="#About">About</a> •
+ <a href="#Function">Function</a> •
+ <a href="#How-to-use-this-application">How to use this application</a> •
+ <a href="#Technologies-Used">Technologies Used</a> •
+  <a href="#layout">Application Layout</a> •
 </p>
 
 ![home](.github/homepage.png) 
