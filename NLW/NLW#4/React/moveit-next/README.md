@@ -12,6 +12,9 @@
   </a>
 </p>
 
+
+
+![home](./resources/Moveit.png) 
 <p align="center">
  <a href="#page_facing_up-about">About</a> •
  <a href="#dart-function">Function</a> •
@@ -19,9 +22,6 @@
  <a href="#-technologies-Used">Technologies Used</a> •
   <a href="#layout">Application Layout</a> •
 </p>
-
-![home](./resources/Moveit.png) 
-
 
 ### 🏠 [Homepage](https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
 
