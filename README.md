@@ -104,6 +104,7 @@ On this repository you will find many techonolgies been used.
 - HTML5
 - CSS3
 - JavaScript
+- TypeScript
 - React
 - Node
 - Next
