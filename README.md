@@ -29,7 +29,8 @@ Menu
       * [Pick just one folder](#pick-just-one-folder)
       * [Pick just one file](#pick-just-one-file)
       
-   * [Technologies](#tecnologias)
+   * [Technologies](#technologies)
+   * [Tools](#tools)
    * [Author](#author)
   
    * [Licenses](#licenses)
