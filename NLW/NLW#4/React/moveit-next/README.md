@@ -19,8 +19,8 @@
  <a href="#page_facing_up-about">About</a> •
  <a href="#dart-function">Function</a> •
  <a href="#space_invader-how-to-use-this-application">How to use this application</a> •
- <a href="#-technologies-Used">Technologies Used</a> •
-  <a href="#layout">Application Layout</a> •
+ <a href="#application">Technologies Used</a> •
+  <a href="#tools">Application Layout and Tools</a> •
 </p>
 
 ### 🏠 [Hospedagem](https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
@@ -43,7 +43,6 @@ For Each level advance are exhibited a modal with the new level achieved. If the
 
 ## :space_invader: How to use this application
 
-
 ### Prerequisite
 
 You need to have this softwares on yout machine:
@@ -52,7 +51,7 @@ You need to have this softwares on yout machine:
 
 
 
-## Execute this Application
+### Execute this Application
 
 ### Download this folder from Github repository
 ```
@@ -60,9 +59,11 @@ svn checkout  https://github.com/Wayfiding/Rocketseat/trunk/NLW/NLW%234/React/mo
 
 ```
 
-### Access this folder from terminal:
+#### **Access this folder from terminal:**
 
+```sh
 cd moveit-next
+```
 #### **Install the dependencies**
  
 **npm**  
