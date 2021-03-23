@@ -3,7 +3,13 @@
 </h1>
 
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-Implementing Dark--Mode-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.4.5a:Implementing Dark--Mode-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/Wayfiding/Rocketseat/blob/main/serie-node/README.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" target="_blank">
+    <img alt="License: https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" src="https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" />
+  </a>
 </p>
 
 <p align="center">
@@ -14,7 +20,7 @@
   <a href="#layout">Application Layout</a> •
 </p>
 
-![home](.github/homepage.png) 
+![home](./resources/Moveit.png) 
 
 
 ### 🏠 [Homepage](https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
@@ -67,11 +73,15 @@ Access http://localhost:3000, to use this application
 
 👤 **Alberto Junior**
 
-* Website: moveit-next
+* Website: (https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+This project is  ![GitHub](https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

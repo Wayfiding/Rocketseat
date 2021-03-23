@@ -20,9 +20,9 @@ export function Sidebar({ toggleTheme }) {
           <li className={ router.pathname === '/' ? styles.active : '' } >
             <a href="/" title="Desafios" ><BiHomeAlt /></a>
           </li>
-            <li className={ router.pathname === '/leaderboard' ? styles.active : '' } >
-            <a href="/leaderboard" title="Ranking" ><BiMedal /></a>
-          </li> 
+            {/* <li className={ router.pathname === '/leaderboard' ? styles.active : '' } >
+            <a href="/leaderboard" title="Ranking" ><BiMedal /></a> 
+          </li>  */}
         </ul>
       </nav>
       <footer className={styles.footer}>
