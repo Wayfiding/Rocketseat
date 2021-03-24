@@ -81,7 +81,8 @@ Or just follow this steps :
 3. Replace the 'tree/main' or 'tree/master' with trunk;
 
 Example: 
-> https://github.com/User/somerepo/tree/main/folderyouwant 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+ 
 > https://github.com/User/somerepo/trunk/folderyouwant 
 
 4.Go to the command Line and just grab the folder with SVN
