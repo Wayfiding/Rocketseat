@@ -1,5 +1,22 @@
 # API, REST e RESTFUL
 ![home](./resources/API.jpeg)
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0:ReadMe Updates-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/Wayfiding/Rocketseat/blob/main/serie-node/README.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" target="_blank">
+    <img alt="License: https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" src="https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" />
+  </a>
+</p>
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="how-to-download-the-api-folder">How to Download the API Folder</a> •
+ <a href="#how-to-use-?">How to use?</a> •
+ <a href="#technologies-used">Technologies Used</a> •
+  <a href="#tools">Tools</a> •
+  <a href="#Explanation">Explanation</a> 
+</p>
 
 ## About
 This repository is for studies about API standards, REST and than turn it in RESTful. You can find the videos to this repository on [Rocketseat Channel](https://www.youtube.com/watch?v=ghTrp1x_1As&list=WL&index=56&ab_channel=Rocketseat) on Youtube.
@@ -23,7 +40,7 @@ Example:
 ```sh
     svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
-## How to use?
+## How to use ?
 To test this small API you can just watch the videos or just download this repo and use the commands bellow:
 
 1. Create a folder to place the files from this repository, then use this command.
@@ -65,6 +82,9 @@ For this small client API you need to have
 - Visual Studio Code
 - Insomnia
 
+
+
+# Explanation
 
 ## What's a API?
 
