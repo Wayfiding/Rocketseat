@@ -1,6 +1,70 @@
 # API, REST e RESTFUL
+![home](./resources/API.jpeg)
 
-This repository is for studies about API standards, REST and than turn it in RESTful.
+## About
+This repository is for studies about API standards, REST and than turn it in RESTful. You can find the videos to this repository on [Rocketseat Channel](https://www.youtube.com/watch?v=ghTrp1x_1As&list=WL&index=56&ab_channel=Rocketseat) on Youtube.
+
+
+## How to Download the API Folder
+If you want to download this repository just follow the steps below:
+
+
+
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
+
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant 
+
+> https://github.com/User/somerepo/trunk/folderyouwant 
+
+3.Go to the command Line and just grab the folder with SVN
+
+```sh
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
+```
+## How to use?
+To test this small API you can just watch the videos or just download this repo and use the commands bellow:
+
+1. Create a folder to place the files from this repository, then use this command.
+
+```sh
+yarn init -y
+```
+2. Will appear the node_modules folder and package.json files. Use this command to add express:
+
+```sh
+yarn add express
+```
+
+3. Start the server with this command:
+   ```sh
+   node server.js
+   ```
+4. Download the Insomnia Application
+5. Create a Folder 'Clients'
+6. Create a Request 'GET'
+7. Add the url: http://localhost:3000/clients
+
+You gonna see the response with all clients.
+
+From now you can use the routes to make your test. 
+
+## Technologies Used
+On this small API were used this techonologies
+
+- JavaScript
+- JSON
+- Node
+- Express
+  
+
+
+## Tools
+For this small client API you need to have
+- Visual Studio Code
+- Insomnia
+
 
 ## What's a API?
 
