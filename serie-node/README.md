@@ -37,7 +37,8 @@ Use Insomnia
 
 👤 **Alberto Junior**
 
-* LinkedIn: [@Alberto Junior](https://linkedin.com/in/Alberto Junior)
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
 ## 🤝 Contributing
 
@@ -49,7 +50,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-This project is  ![GitHub](https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT) licensed.
+Copyright © 2021 [Alberto Junior](https://github.com/Test).<br />
+This project is [MIT](<img alt=&#34;GitHub&#34; src=&#34;https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT&#34;>) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

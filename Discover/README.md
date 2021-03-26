@@ -91,8 +91,8 @@ For this repository you gonna need a editor and a computer with Linux, Windows o
 
 
 
-* Github: [@Alberto Junior](https://github.com/wayfiding)
-* LinkedIn: [@Alberto Junior](https://linkedin.com/in/alberto-souza)
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
 
 
