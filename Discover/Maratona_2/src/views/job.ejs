@@ -28,7 +28,7 @@
 
     <div class="container flex animate-up delay-2">
       <main>
-        <form id="form-job">
+        <form id="form-job" action="/job" method="POST">
           <fieldset>
             <legend>Dados do Job</legend>
             <div class="separator light"></div>
@@ -46,7 +46,8 @@
                   type="number"
                   step="0.1" 
                   id="daily-hours" 
-                  name="daily-hours"/>
+                  name="daily-hours"
+                  />
               </div>
 
               <div class="input-wrapper">
