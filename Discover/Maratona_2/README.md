@@ -6,7 +6,7 @@
 
 ![home](./resources/Discover2.jpeg) Building the Discover 2 SpaceShip
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.5 Marathon-finished-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.5 Marathon Finished-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
