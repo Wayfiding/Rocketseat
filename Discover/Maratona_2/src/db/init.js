@@ -6,6 +6,15 @@ const initDb = {
         const db = await Database()
 
         await db.exec(`
+        CREATE TABLE user (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name text,
+            password varchar
+
+        )
+        `)
+
+        await db.exec(`
 CREATE TABLE profile (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
@@ -75,6 +84,16 @@ INSERT INTO jobs (
     47,
     1617514376018
 );
+`)
+
+await db.run(`
+    INSERT INTO user (
+        name,
+        password
+    ) VALUES (
+            "Alberto",
+            123456
+    );
 `)
 
 

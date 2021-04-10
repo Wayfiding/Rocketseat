@@ -1,11 +1,19 @@
 const Job = require('../models/Job')
 const JobUtils = require('../utils/JobUtils')
 const Profile = require('../models/Profile')
+const User = require('../models/User')
+
+const authMiddleware = require('../middlewares/auth')
 
 
+
+//use(authMiddleware)
 
 module.exports = {
   async index(req, res) {
+    const user = req.params.name
+    
+   // const auth = await User.auth(user,password)
     const jobs =  await Job.get();
     const profile = await Profile.get();
 

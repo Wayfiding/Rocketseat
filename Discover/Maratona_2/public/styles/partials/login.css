@@ -54,11 +54,25 @@ input {
   color: var(--color-card-title);
 }
 
-
 ::placeholder {
   color: #BFBFCC;
 }
 
 .input-wrapper {
   width:50%
+}
+
+.container {
+    margin: 10vh;
+    
+}
+.input-group {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+fieldset {
+    padding: 15vh;
 }

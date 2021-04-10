@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#41414C" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <title>JobsCalc</title>
+
+   <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/partials/page-header.css" />
+    <link rel="stylesheet" href="./styles/partials/cards.css" />
+    <link rel="stylesheet" href="./styles/partials/buttons.css" />
+    <link rel="stylesheet" href="./styles/partials/modal.css" />
+    <link rel="stylesheet" href="./styles/partials/animations.css" />
+    <link rel="stylesheet" href="./styles/pages/index.css" />
+    <link rel="stylesheet" href="./styles/partials/login.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="scripts/index.js" defer type="module"></script>
+  </head>
+  <body id="page-index">
+    <header class="page-header">
+      <div class="container">
+        <section id="top" class="animate-up">
+          <h2 class="sr-only">Área de Login</h2>
+          <img id="logo" src="/images/logo.svg" alt="Logo" />
+          <span id="notification">
+            
+    </header>
+
+    <div class="container">
+      <main class="animate-up delay-2">
+        
+         <div class="input-group">
+             <form id="logon" action="/login/" method="POST">
+             <fieldset>
+                 <div class="login">
+                    <div class="input-wrapper">
+                        <label for="">Login</label>
+                        <input type="text" id="name" name="name">
+                     </div>
+    
+                     <div class="input-wrapper">
+                        <label for="">Password</label>
+                        <input type="password" id="password" name="password">
+                     </div>
+                 </div>
+                 
+                 <div class="button-group">
+                    <button 
+                      class="button green" 
+                      form="logon" 
+                      type="submit" 
+                      title="logar">Logar</button>
+                    <button 
+                      href="#" 
+                      class="button gray open-modal"
+                                   
+                        title="Cancelar cadastro">
+                        Registrar
+                 </button>
+                  </div>
+
+             </fieldset>
+            </form>
+         </div>
+          <!-- end card -->
+
+          
+        </div>
+        <!-- end cards -->
+      </main>
+    </div>
+    <!-- end container -->
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <img src="/images/trash-48.svg" alt="Excluir Job" title="Excluir Job" />
+        <h3>Excluir Job</h3>
+        <p>Quer mesmo excluir esse job? <br/>
+        Ele será apagado para sempre.  
+        </p>
+        <footer>
+          <a 
+            class="button gray" 
+            href="#">Cancelar</a>
+          <button
+            class="button red"
+            type="submit"
+            form="delete-job">Excluir Job</button>
+        </footer>
+      </div>
+      <form 
+        method="post" 
+        action="/job/delete" 
+        id="delete-job"></form>
+    </div>
+    <!-- end modal-wrapper -->
+  </body>
+</html>

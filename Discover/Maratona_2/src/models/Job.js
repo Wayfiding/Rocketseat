@@ -20,16 +20,15 @@ module.exports = {
 
         }))
     },
-    async update(newJobs, jobId) {
+    async update(updateJob, jobId) {
         const db = await Database()
-        console.log(newJobs)
-        const db2 = await db.run(`UPDATE jobs SET
-        name = "${newJobs.name}",
-        daily_hours = ${newJobs["daily-hours"]},
-        total_hours = ${newJobs["total-hours"]}
-        WHERE  id = ${Number(newJobs.id)}`
+        
+        await db.run(`UPDATE jobs SET
+        name = "${updateJob.name}",
+        daily_hours = ${(updateJob["daily-hours"])},
+        total_hours = ${updateJob["total-hours"]}
+        WHERE  id = ${jobId}`
         )
-        console.log(db2)
         await db.close()
     },
     async delete(id) {
@@ -49,7 +48,7 @@ module.exports = {
         "${newJob.name}",
          ${newJob["daily-hours"]},
          ${newJob["total-hours"]},
-         datetime('now') 
+         ${newJob.created_at}
          )`)
         await db.close()
     }

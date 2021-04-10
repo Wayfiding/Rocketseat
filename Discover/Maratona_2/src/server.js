@@ -12,7 +12,7 @@ server.set('view engine','ejs')
 server.set('views', path.join(__dirname,'views'))
 
 // habilitar arquivos statics
-
+server.use(express.json())
 server.use(express.static("public"))
 
 // usar o req.body

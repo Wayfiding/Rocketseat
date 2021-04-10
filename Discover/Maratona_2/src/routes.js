@@ -3,8 +3,13 @@ const routes = express.Router()
 const ProfileController = require('./controllers/ProfileController')
 const JobController = require('./controllers/JobController')
 const DashboardController = require('./controllers/DashboardController')
+const AuthController = require('./controllers/AuthController');
+const RegisterController = require('./controllers/RegisterController');
 
 // req, res
+// routes.get('/', AuthController.index)
+// routes.post('/login', AuthController.login)
+// routes.post('/register', RegisterController.register)
 routes.get('/', DashboardController.index)
 routes.get('/job', JobController.create)
 routes.post('/job', JobController.save)
