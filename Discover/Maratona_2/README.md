@@ -6,7 +6,7 @@
 
 ![home](./resources/Discover2.jpeg) Building the Discover 2 SpaceShip
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0 Base Launching-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.5 Marathon-finished-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">License</a>
 </p>
 
 
@@ -31,8 +31,8 @@
 </p>
 
 ## 🚀 Tecnologias
+This Project was developed using the following technologies:
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
@@ -44,7 +44,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema 💰
+The JobsCalc is a calculation estimation application for freelancer projects, where is possible to register and delete jobs(projects), getting a cost estimation of each job. Futhermore, its possible to trace the hour value of the person that will be using the system 💰
+
+
 
 ## 🔖 Layout
 
