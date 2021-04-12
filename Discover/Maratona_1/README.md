@@ -1,4 +1,7 @@
 <h1 align="center">Welcome to Maratona 1 👋</h1>
+
+![home](./resources/Maratona_1.png) 
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.5.0 Updating README-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
@@ -12,23 +15,62 @@
   </a>
 </p>
 
-> This is  Project to learn Front-end Technology as JS,HTML and CSS
+<p align="center">
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">License</a>
+</p>
+
+## 💻 Project
+ On this project were build a mini financial system, the process to do this can be viewed on [Rocketseat Platform](https://app.rocketseat.com.br). This project is part of a program developed by Rocketseat to help people learn the Front-End technologies.
+
+## 🚀 Technologies
+This Project was developed using the following technologies:
+
+- HTML
+- CSS
+- **JavaScript**
+
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover/duplicate?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+
+
+
 
 ### 🏠 [Homepage](Teste)
 
 ### ✨ [Demo](Teste)
 
-## Install
+
+
+## How to use:
+If you want download this folder from this repository just follow this steps below:
+
+
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
+
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+ 
+> https://github.com/User/somerepo/trunk/folderyouwant 
+
+3.Go to the command Line and just grab the folder with SVN
 
 ```sh
-Teste
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
+
 
 ## Usage
+After download the folder you can just open the index.html with your browser or open with Visual Studio Code and on the side bar click with the right-button of your mouse and select the Open Preview option. 
 
-```sh
-Teste
-```
+To use the 'Open Preview' will be required to you to install the Live-Server 
+
 
 ## Run tests
 
@@ -38,16 +80,12 @@ Teste
 
 ## Author
 
-👤 **Alberto Júnior**
+👤 **Alberto Junior**
 
-* Website: Teste
-* Twitter: [@Teste](https://twitter.com/Teste)
-* Github: [@Teste](https://github.com/Teste)
-* LinkedIn: [@Teste](https://linkedin.com/in/Teste)
 
-## 🤝 Contributing
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](Teste). You can also take a look at the [contributing guide](Teste).
 
 ## Show your support
 

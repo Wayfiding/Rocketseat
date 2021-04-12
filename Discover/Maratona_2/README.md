@@ -30,7 +30,7 @@
   <img alt="dev.finances" src="./resources/jobscalc.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 This Project was developed using the following technologies:
 
 
@@ -42,7 +42,7 @@ This Project was developed using the following technologies:
 - Express
 - SQLite
 
-## 💻 Projeto
+## 💻 Project
 
 The JobsCalc is a calculation estimation application for freelancer projects, where is possible to register and delete jobs(projects), getting a cost estimation of each job. Futhermore, its possible to trace the hour value of the person that will be using the system 💰
 
