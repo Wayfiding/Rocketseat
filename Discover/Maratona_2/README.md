@@ -30,6 +30,12 @@
   <img alt="dev.finances" src="./resources/jobscalc.png" width="100%">
 </p>
 
+
+## 💻 Project
+
+The JobsCalc is a calculation estimation application for freelancer projects, where is possible to register and delete jobs(projects), getting a cost estimation of each job. Futhermore, its possible to trace the hour value of the person that will be using the system 💰
+
+
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
@@ -42,9 +48,7 @@ This Project was developed using the following technologies:
 - Express
 - SQLite
 
-## 💻 Project
 
-The JobsCalc is a calculation estimation application for freelancer projects, where is possible to register and delete jobs(projects), getting a cost estimation of each job. Futhermore, its possible to trace the hour value of the person that will be using the system 💰
 
 
 
@@ -54,38 +58,55 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 
 ## How to Use
-> Teste
+If you want download this folder from this repository just follow this steps below:
+
+
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
+
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+ 
+> https://github.com/User/somerepo/trunk/folderyouwant 
+
+3.Go to the command Line and just grab the folder with SVN
+
+```sh
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
+```
 
 ### 🏠 [Homepage](Teste)
 
 ### ✨ [Demo](Teste)
 
 ## Install
+To use this application you have to download [Node](https://nodejs.org/en/), install de node.js and open the terminal on the current folder where you download theses files and run these command below.
+
 
 ```sh
-Teste
+npm install express ejs nodemon
 ```
 
 ## Usage
+After installing Node and the packages needed to run this application, you must run this commands below:
 
 ```sh
-Teste
+npm run dev
 ```
 
-## Run tests
+After that you can choose a web browser and try to access this app on that address:
 
-```sh
-Teste
-```
+127.0.0.1:3000
+or
+localhost:3000
 
 ## Author
 
-👤 **Alberto**
+👤 **Alberto Junior**
 
-* Website: Teste
-* Twitter: [@Teste](https://twitter.com/Teste)
-* Github: [@Teste](https://github.com/Teste)
-* LinkedIn: [@Teste](https://linkedin.com/in/Teste)
+
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
 ## 🤝 Contributing
 

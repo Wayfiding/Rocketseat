@@ -16,10 +16,10 @@
 </p>
 
 <p align="center">
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">License</a>
+  <a href="#💻-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#🚀-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#🔖-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#📝-license">License</a>
 </p>
 
 ## 💻 Project
@@ -43,7 +43,6 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ### 🏠 [Homepage](Teste)
 
-### ✨ [Demo](Teste)
 
 
 
@@ -69,14 +68,9 @@ Example:
 ## Usage
 After download the folder you can just open the index.html with your browser or open with Visual Studio Code and on the side bar click with the right-button of your mouse and select the Open Preview option. 
 
-To use the 'Open Preview' will be required to you to install the Live-Server 
+To use the 'Open Preview' will be required to you to install the Live-Server extension on your Visual Studio Code Software.
 
 
-## Run tests
-
-```sh
-Teste
-```
 
 ## Author
 
