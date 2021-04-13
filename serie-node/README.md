@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to API NodeJS + Express + Mongo 👋</h1>
 
-
+![home](./resources/API_running.png)
 
 <p align="center">
   <a href="#💻-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
@@ -142,4 +142,4 @@ Copyright © 2021 [Alberto Junior](https://github.com/Test).<br />
 This project is [MIT](<img alt=&#34;GitHub&#34; src=&#34;https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT&#34;>) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_ and Alberto.
