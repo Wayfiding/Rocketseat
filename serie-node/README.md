@@ -67,11 +67,41 @@ npm init -y
  npm bcryptjs
 ```
 
+```sh
+ npm jsonwebtoken
+```
+
 ## Run tests
 To test that application you gonna need to follow some steps so you can understand how this back-end app works. The Insomnia and Robo3T is required to test it.
-```sh
-Use Insomnia 
+
+
+Open your Insomnia on No Enviroment option select 'Manage Enviroments' and create a base url:
+
+```json
+{
+  "base_url": "localhost:3000"
+}
 ```
+After that go back create a folder with name API NodeJS+Express+Mongo. 
+
+And them Create 3 new Requests:
+
+- Authenticate with Post 
+- Register with Post
+- Projects with Get
+
+After that run this command to start the app :
+
+```sh
+node src/index.js
+```
+
+First you gonna register an account them you gonna authenticate and after that test the projects route.
+
+![register](./resources/register.png)
+
+
+
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
@@ -82,6 +112,7 @@ This Project was developed using the following technologies:
 - MongoDB
 - bcrypt
 - JWT
+- Mongoose ODR
 
 
 ## Tools
