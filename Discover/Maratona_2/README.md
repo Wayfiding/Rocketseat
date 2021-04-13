@@ -48,7 +48,11 @@ This Project was developed using the following technologies:
 - Express
 - SQLite
 
+## Tools
 
+- Insomnia
+- VisualStudio Code
+- Beekeeper
 
 
 
@@ -77,10 +81,14 @@ Example:
 
 ### 🏠 [Homepage](Teste)
 
-### ✨ [Demo](Teste)
 
 ## Install
 To use this application you have to download [Node](https://nodejs.org/en/), install de node.js and open the terminal on the current folder where you download theses files and run these command below.
+
+
+```sh
+npm init -y
+```
 
 
 ```sh

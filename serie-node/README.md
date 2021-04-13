@@ -1,4 +1,14 @@
 <h1 align="center">Welcome to API NodeJS + Express + Mongo 👋</h1>
+
+
+
+<p align="center">
+  <a href="#💻-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#🚀-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#🔖-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#📝-license">License</a>
+</p>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.4.0a-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Wayfiding/Rocketseat/blob/main/serie-node/README.md" target="_blank">
@@ -9,30 +19,77 @@
   </a>
 </p>
 
-> On this project will be created an API REST from 0 with NodeJS, Express and MongoDB
+## 💻 Project
+ On this project will be created an API REST from Zero with NodeJS, Express and MongoDB
 
 ### 🏠 [Homepage](https://github.com/Wayfiding/Rocketseat/tree/main/serie-node)
 
-### ✨ [Demo](https://github.com/Wayfiding/Rocketseat/tree/main/serie-node)
 
-## Install
+## How to use:
+If you want download this folder from this repository just follow this steps below:
+
+
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
+
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+ 
+> https://github.com/User/somerepo/trunk/folderyouwant 
+
+3.Go to the command Line and just grab the folder with SVN
 
 ```sh
-yarn install
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
 
 ## Usage
+To use this application you have to download [Node](https://nodejs.org/en/), install de node.js and open the terminal on the current folder where you download theses files and run these command below.
+
 
 ```sh
- First we
+npm init -y
+```
+
+```sh
+ npm install express 
+```
+
+```sh
+ npm body-parser
+```
+
+```sh
+ npm mongoose
+```
+
+```sh
+ npm bcryptjs
 ```
 
 ## Run tests
-
+To test that application you gonna need to follow some steps so you can understand how this back-end app works. The Insomnia and Robo3T is required to test it.
 ```sh
 Use Insomnia 
 ```
+## 🚀 Technologies
+This Project was developed using the following technologies:
 
+
+- JavaScript
+- NodeJS
+- Express
+- MongoDB
+- bcrypt
+- JWT
+
+
+## Tools
+
+- Insomnia
+- VisualStudio Code
+- Robo3T
+  
 ## Author
 
 👤 **Alberto Junior**
