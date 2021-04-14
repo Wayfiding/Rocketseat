@@ -7,7 +7,7 @@
   <a href="#🚀-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#🔖-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#📝-license">License</a>
-</p>
+</p>qu
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.4.0a-blue.svg?cacheSeconds=2592000" />
@@ -56,20 +56,29 @@ npm init -y
 ```
 
 ```sh
- npm body-parser
+ npm install body-parser
 ```
 
 ```sh
- npm mongoose
+ npm install mongoose
 ```
 
 ```sh
- npm bcryptjs
+ npm install bcryptjs
 ```
 
 ```sh
- npm jsonwebtoken
+ npm  install jsonwebtoken
 ```
+
+
+```sh
+ npm install fs path
+ ```
+
+ ```sh
+ npm install nodemailer nodemailer-express-handlebars
+ ```
 
 ## Run tests
 To test that application you gonna need to follow some steps so you can understand how this back-end app works. The Insomnia and Robo3T is required to test it.
@@ -98,7 +107,9 @@ node src/index.js
 
 First you gonna register an account them you gonna authenticate and after that test the projects route.
 
-![register](./resources/register.png)
+![register](./resources/register.png) Register
+
+![authenticate](./resources/Authenticate.png) Authenticate
 
 
 
