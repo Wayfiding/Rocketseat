@@ -7,10 +7,13 @@ const AuthController = require('./controllers/AuthController');
 const RegisterController = require('./controllers/RegisterController');
 
 // req, res
-// routes.get('/', AuthController.index)
-// routes.post('/login', AuthController.login)
-// routes.post('/register', RegisterController.register)
-routes.get('/', DashboardController.index)
+routes.get('/', AuthController.index)
+
+routes.post('/login', AuthController.login)
+routes.get('/register', RegisterController.index)
+routes.post('/registered', RegisterController.register)
+
+routes.get('/index', DashboardController.index)
 routes.get('/job', JobController.create)
 routes.post('/job', JobController.save)
 routes.get('/job/:id', JobController.show)

@@ -7,7 +7,7 @@
   <a href="#🚀-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#🔖-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#📝-license">License</a>
-</p>
+</p>qu
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.4.0a-blue.svg?cacheSeconds=2592000" />
@@ -20,11 +20,7 @@
 </p>
 
 ## 💻 Project
- On this project will be created an API REST from Zero with NodeJS, Express and MongoDB. On That application will be create a CRUD to manipulate a account with the following Options:
- - Register
- - Authenticate 
- - Forgot Password
- - Reset Password
+ On this project will be created an API REST from Zero with NodeJS, Express and MongoDB
 
 ### 🏠 [Homepage](https://github.com/Wayfiding/Rocketseat/tree/main/serie-node)
 

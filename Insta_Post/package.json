@@ -2,14 +2,31 @@
   "name": "Insta_Post",
   "version": "1.0.0",
   "description": "- Testes",
-  "main": "main.js",
+  "main": "electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-package . --icon assets/instagram.png --out=packages",
+    "dist": "electron-builder --windows"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^12.0.1"
+  },
+  "build": {
+    "appId": "com.example.app",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    
+    "directories": {
+      "buildResources":"resources",
+      
+      "output":"distro"
+    },
+    "files":["resources/instagram.*","./electron/main.js"]
+    
   }
+  
 }

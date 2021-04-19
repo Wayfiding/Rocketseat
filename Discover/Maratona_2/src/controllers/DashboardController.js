@@ -2,21 +2,32 @@ const Job = require('../models/Job')
 const JobUtils = require('../utils/JobUtils')
 const Profile = require('../models/Profile')
 const User = require('../models/User')
+const express = require('express')
+const router = express.Router()
 
 const authMiddleware = require('../middlewares/auth')
 
 
+router.use(authMiddleware)
 
-//use(authMiddleware)
 
 module.exports = {
+  
+
   async index(req, res) {
-    const user = req.params.name
+       
+ 
+      await authMiddleware(req,res)
+      const data = req.session.message
+      console.log(data)
+    // console.log(data)
+      const user = data.userName
+    
     
    // const auth = await User.auth(user,password)
-    const jobs =  await Job.get();
-    const profile = await Profile.get();
-
+    const jobs =  await Job.get(user);
+    const profile = await Profile.get(user);
+    console.log(jobs)
     let statusCount = {
         progress: 0,
         done: 0,

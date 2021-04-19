@@ -2,10 +2,17 @@ const Profile = require('../models/Profile')
 
 module.exports = {
     async index(req, res) {
-        const profile = await Profile.get()
+        const data = req.session.message
+        const user = data.userName
+        
+    
+        const profile = await Profile.get(user)
+        // console.log(profile.name["name"])
         return res.render("profile", { profile: profile})
     },
     async update(req, res) {
+        const userData = req.session.message
+        const user = userData.userName
         // req.body para pegar os dados
         const data = req.body
         // definir quantas semanas tem num ano: 52
@@ -19,8 +26,11 @@ module.exports = {
         // qual será o valor da minha hora ?
         const valueHour = data["monthly-budget"] / monthlyTotalHours
 
-        const profile = await Profile.get()
+        const profile = await Profile.get(user)
+        
+
         await Profile.update({
+             
             ...await profile,
             ...req.body,
             "value-hour": valueHour

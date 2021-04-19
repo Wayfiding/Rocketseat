@@ -1,43 +1,55 @@
-const Database = require('./config')
+const Database = require("./config");
 
 const initDb = {
-    async init() {
+  async init() {
+    const db = await Database();
 
-        const db = await Database()
-
-        await db.exec(`
+    await db.exec(`
         CREATE TABLE user (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name text,
-            password varchar
+            iduser INTEGER PRIMARY KEY AUTOINCREMENT,
+            name text not null UNIQUE,
+            password varchar not null UNIQUE
 
         )
-        `)
+        `);
 
-        await db.exec(`
+    await db.run(`
+    INSERT INTO user (
+        name,
+        password
+    ) VALUES (
+            "Alberto",
+            123456
+    );
+`);
+    await db.exec(`
 CREATE TABLE profile (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    idProfile INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
     avatar TEXT,
     monthly_budget INT,
     days_per_week INT,
     hours_per_day INT,
     vacation_per_year INT,
-    value_hour INT
+    value_hour INT,
+    id_user INT UNIQUE,
+    FOREIGN KEY(id_user) REFERENCES user(iduser)
     )
 `);
 
-        await db.exec(`
+    await db.exec(`
 CREATE TABLE jobs(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    idJob INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
     daily_hours INT,
     total_hours INT,
-    created_at DATETIME
+    created_at DATETIME,
+    id_user INT, 
+    FOREIGN KEY(id_user) REFERENCES user(iduser)
 )
 `);
 
-        await db.run(`
+    await db.run(`
 
 INSERT INTO profile(
     name,
@@ -46,7 +58,8 @@ INSERT INTO profile(
     days_per_week,
     hours_per_day,
     vacation_per_year,
-    value_hour
+    value_hour,
+    id_user
 ) VALUES (
     "Alberto",
     "https://github.com/wayfiding.png",
@@ -54,51 +67,45 @@ INSERT INTO profile(
     5,
     5,
     4,
-    75
-);`)
+    75,
+    1
+);`);
 
-        await db.run(`
+    await db.run(`
 INSERT INTO jobs (
     name,
     daily_hours,
     total_hours,
-    created_at
+    created_at,
+    id_user
 ) VALUES (
     "Pizzaria Guloso",
     2,
     1,
-    1617514376018
+    1617514376018,
+    1
 
 );
-`)
+`);
 
-        await db.run(`
+    await db.run(`
 INSERT INTO jobs (
     name,
     daily_hours,
     total_hours,
-    created_at
+    created_at,
+    id_user
 ) VALUES (
     "OneTwo Projects",
     3,
     47,
-    1617514376018
+    1617514376018,
+    1
 );
-`)
+`);
 
-await db.run(`
-    INSERT INTO user (
-        name,
-        password
-    ) VALUES (
-            "Alberto",
-            123456
-    );
-`)
+    await db.close();
+  },
+};
 
-
-        await db.close()
-    }
-}
-
-initDb.init()
+initDb.init();
