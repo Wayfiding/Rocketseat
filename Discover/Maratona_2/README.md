@@ -92,15 +92,21 @@ npm init -y
 
 
 ```sh
-npm install express ejs nodemon
+npm install express ejs nodemon cookie-parser express-session jsonwebtoken uuid sqlite sqlite3
 ```
 
 ## Usage
 After installing Node and the packages needed to run this application, you must run this commands below:
 
 ```sh
+npm run init-db
+```
+This will create a database with a default user with defaults jobs.
+
+```sh
 npm run dev
 ```
+This will start the application
 
 After that you can choose a web browser and try to access this app on that address:
 
@@ -108,6 +114,11 @@ After that you can choose a web browser and try to access this app on that addre
 or
 localhost:3000
 
+Will be propmpted to login page and you can register a new user or use a default user
+Default user:
+
+Login: Alberto
+Password: 12346
 ## Author
 
 👤 **Alberto Junior**
