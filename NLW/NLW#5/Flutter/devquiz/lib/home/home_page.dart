@@ -1,3 +1,4 @@
+import 'package:DevQuiz/home/widgets/appbar/app_bar_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -10,6 +11,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBarWidget(),
+    );
   }
 }
