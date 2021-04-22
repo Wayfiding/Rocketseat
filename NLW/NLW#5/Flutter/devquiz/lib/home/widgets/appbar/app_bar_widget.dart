@@ -35,7 +35,7 @@ class AppBarWidget extends PreferredSize {
                               borderRadius: BorderRadius.circular(10),
                               image: DecorationImage(
                                   image: NetworkImage(
-                                      "https://github.com/Wayfiding"))),
+                                      "https://avatars.githubusercontent.com/u/72744170?v=4"))),
                         )
                       ],
                     ),
