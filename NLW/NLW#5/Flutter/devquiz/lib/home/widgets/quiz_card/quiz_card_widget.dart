@@ -6,16 +6,18 @@ import 'package:flutter/material.dart';
 
 class QuizCardWidgtet extends StatelessWidget {
   final String title;
+  final String icons;
   final String completed;
   final double percent;
   final VoidCallback onTap;
-  const QuizCardWidgtet(
-      {Key? key,
-      required this.title,
-      required this.completed,
-      required this.percent,
-      required this.onTap})
-      : super(key: key);
+  const QuizCardWidgtet({
+    Key? key,
+    required this.title,
+    required this.completed,
+    required this.percent,
+    required this.onTap,
+    required this.icons,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +37,9 @@ class QuizCardWidgtet extends StatelessWidget {
             Container(
               height: 40,
               width: 40,
-              child: Image.asset(AppImages.blocks),
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("assets/images/$icons.png"))),
             ),
             SizedBox(
               height: 20,
@@ -61,7 +65,7 @@ class QuizCardWidgtet extends StatelessWidget {
                   child: ProgressIndicatorWidget(value: percent),
                 )
               ],
-            )
+            ),
           ],
         ),
       ),
