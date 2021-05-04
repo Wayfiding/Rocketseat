@@ -3,7 +3,7 @@
 ![home](./resources/NLW5.jpeg)
 
 
-Building the Discover 2 SpaceShip
+Discover new Technologies
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-Teste-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
