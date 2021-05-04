@@ -5,12 +5,12 @@
 
 Discover new Technologies
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-Teste-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-Updating Readmes-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="Teste" target="_blank">
-    <img alt="License: Teste" src="https://img.shields.io/badge/License-Teste-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-Teste-yellow.svg" />
   </a>
   <a href="https://twitter.com/Teste" target="_blank">
     <img alt="Twitter: Teste" src="https://img.shields.io/twitter/follow/Teste.svg?style=social" />
