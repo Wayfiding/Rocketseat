@@ -92,7 +92,13 @@ npm init -y
 
 
 ```sh
-npm install express ejs nodemon cookie-parser express-session jsonwebtoken uuid sqlite sqlite3
+npm install 
+```
+
+Or
+
+```sh
+yarn install
 ```
 
 ## Usage

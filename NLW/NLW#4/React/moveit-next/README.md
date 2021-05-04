@@ -77,6 +77,10 @@ or
 npm install -g yarn
 ```
 
+```sh 
+yarn install
+```
+
 #### **Usage**
 
 **npm** 

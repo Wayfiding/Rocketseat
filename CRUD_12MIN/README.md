@@ -21,10 +21,21 @@ mkdir project
 cd project
 touch admin.js
 ```
+And use  run this command:
+
+```sh
+npm init -y
+```
 
 2. Install dependencies 
 ```sh
-npm i admin-bro @admin-bro/express express express-formidable
+npm install 
+```
+
+Or 
+
+```sh
+yarn install
 ```
 3. admin.js
 
