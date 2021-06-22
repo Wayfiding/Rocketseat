@@ -1,6 +1,6 @@
 # devquiz
 
-A new Flutter project.
+A new Flutter project. DevQuiz
 
 ## Getting Started
 
