@@ -9,6 +9,7 @@ import IllustrationImg from '../../assets/illustration.png';
 import { styles } from './styles'
 import { useNavigation } from '@react-navigation/native';
 
+import { Background } from '../../components/Background'
 
 
 
@@ -20,6 +21,7 @@ export default function  SignIn(){
     }
 
   return(
+    <Background>
     <View style={styles.container}>
       
       <Image source={IllustrationImg}
@@ -47,5 +49,6 @@ export default function  SignIn(){
       
     </View>
     </View>
+    </Background>
   )
 }
