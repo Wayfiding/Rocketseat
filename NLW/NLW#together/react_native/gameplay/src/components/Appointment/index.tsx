@@ -38,7 +38,7 @@ export function Appointment({ data, ...rest }: Props) {
                 <LinearGradient 
                 style={styles.guildIconContainer}
                 colors={[secondary50,secondary70]}>
-                <GuildIcon />
+                <GuildIcon guildId={data.guild.id} iconId={data.guild.icon}  />
                 </LinearGradient>
                 <View style={styles.content}>
                     <View style={styles.header}>
@@ -51,7 +51,7 @@ export function Appointment({ data, ...rest }: Props) {
 
 
                         <Text style={styles.category}>
-                            {category.title}
+                            { category.title }
                         </Text>
                     </View>
                     <View style={styles.footer}>
