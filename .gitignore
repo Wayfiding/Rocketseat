@@ -19,6 +19,14 @@ web-build/
 
 # macOS
 .DS_Store
+
+
+
+#NLW 05
+
+
+
+#NLW Together
 #Gameplay sensitive data
 NLW/NLW#together/react_native/gameplay/src/configs/discordAuth.ts
 .env

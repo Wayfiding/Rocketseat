@@ -20,7 +20,7 @@ Discover new Technologies
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
- On This NLW#5 I choose two Tracks one with Flutter and another with React, on these 2 techonogies were developed 2 differents applications one called DevQuiz and another called respectively.
+ On This NLW#5 I choose two Tracks one with Flutter and another with React, on these 2 techonogies were developed 2 differents applications one called DevQuiz and another called Podcastr respectively.
 
 
 
