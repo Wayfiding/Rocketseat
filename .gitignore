@@ -22,3 +22,7 @@ web-build/
 #Gameplay sensitive data
 NLW/NLW#together/react_native/gameplay/src/configs/discordAuth.ts
 .env
+
+
+#Wallpapers
+Wallpapers/
