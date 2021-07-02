@@ -20,8 +20,9 @@
     <img alt="Twitter: Teste" src="https://img.shields.io/twitter/follow/Teste.svg?style=social" />
   </a>
 </p>
+This project was developed during the Next Level Week and the aim of this project was to bring happiness to orphan childs visiting them.
 
-> Teste
+The project could not be finished because I could not watch all the event, yet I'm still looking to finish it.
 
 ### 🏠 [Homepage](Teste)
 
@@ -64,8 +65,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Alberto Júnior](https://github.com/Teste).<br />
-This project is [Teste](Teste) licensed.
+Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

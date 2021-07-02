@@ -74,6 +74,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 Give a ⭐️ if this project helped you!
 
 ## 📝 License
+Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 

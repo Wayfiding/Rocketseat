@@ -2,7 +2,7 @@ Rocketseat.code-workspace
 node_modules/
 assets.zip
 Discover/Maratona_2/database.sqlite
-podcastrnext
+./podcastrnext/
 
 
 # React Native git ignore updated here
