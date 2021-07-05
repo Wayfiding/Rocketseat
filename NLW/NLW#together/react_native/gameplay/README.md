@@ -6,42 +6,56 @@
 <h1 align="center">Welcome to GamePlay 👋</h1>
 
 ![home](./resources/Capa.png)
+
+
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-LaunchBase-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-Updating Readmes-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="Teste" target="_blank">
-    <img alt="License: Teste" src="https://img.shields.io/badge/License-Teste-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/Teste" target="_blank">
-    <img alt="Twitter: Teste" src="https://img.shields.io/twitter/follow/Teste.svg?style=social" />
-  </a>
+  
+</p>
+<p align="center">
+  <a href="#how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
-> Teste
+ On this project was developed a application to help schedule the games along the week with your friend, the application use the Oauth2 to align it with your Discord Server and help you and your friend playing together.
+ 
+## How to Use
+If you want download this folder from this repository just follow this steps below:
 
-### 🏠 [Homepage](Teste)
 
-### ✨ [Demo](Teste)
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
 
-## Install
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+ 
+> https://github.com/User/somerepo/trunk/folderyouwant 
 
-```sh
-Teste
-```
-
-## Usage
-
-```sh
-Teste
-```
-
-## Run tests
+3.Go to the command Line and just grab the folder with SVN
 
 ```sh
-Teste
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
+
+
+
+## 🚀 Technologies
+This Project was developed using the following technologies:
+
+
+
+- JavaScript
+- NodeJS
+- ReactNative
+- TypeScript
 
 ## Author
 
