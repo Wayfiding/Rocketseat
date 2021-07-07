@@ -13,11 +13,12 @@
 </p>
 
 
-<p align="center">
+<div align="center">
+Languages:
 
 [Portuguese :brazil:](README-ptbr.md)
 
-</p>
+</div>
 
 
 
