@@ -20,7 +20,7 @@ Discover new Technologies
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
- On This NLW#5 I choose two Tracks one with Flutter and another with React, on these 2 techonogies were developed 2 differents applications one called DevQuiz and another called respectively.
+ On This NLW#5 I choose two Tracks one with Flutter and another with React, on these 2 techonogies were developed 2 differents applications one called DevQuiz and another called Podcastr respectively.
 
 
 
@@ -74,6 +74,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 Give a ⭐️ if this project helped you!
 
 ## 📝 License
+Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 

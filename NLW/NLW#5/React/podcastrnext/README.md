@@ -1,18 +1,10 @@
+
 <h1 align="center">
-  <img alt="DevQuiz" title="DevQuiz" src="./resources/logo.png" />
+  <img alt="Podcastr" title="Podcastr" src="./resources/Logo.png" />
 </h1>
 
 
 ![home](./resources/Capa.png)
-
-
-
-
-
-
-
-
-
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-Updating Readmes-blue.svg?cacheSeconds=2592000" />
@@ -30,8 +22,8 @@
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
- The devquiz is game of questions and answers with the purpose of evaluate your knowledge on development world. This project was made on Rocketseat event called NLW(Next Level Week)
-
+ 
+The Podcastr was developed during the Next Level Week 5, promoted by Rocketseat. It's a platform were you can listening the episodes from Podcast "Talk Dev" and see a description about it episode content.
 
 
 
@@ -53,21 +45,46 @@ Example:
     svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
 
-After this you just need to open the terminal after installing the flutter on your computer and just change to the correct directory where are the files that you clone from this folder and just type this command:
+After download that folder you gonna run the below command to start the application:
+```sh
+npm install
+```
+or
+```sh
+yarn 
+```
+Those command will install and download the required packages to application be able to run correctly.
+
+After that you can choose use npm or yarn to run the application:
 
 ```sh
-    flutter run
+npm run server 
 ```
 
+```sh
+npm run dev
+```
+For users of yarn :
+
+```sh
+yarn server
+```
+and them: 
+```sh
+yarn dev
+```
+
+The first command will start mini back-end server and the next command will run the application.
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
 
-
-- Dart
-- Flutter
-
-
+- HTML
+- CSS
+- JavaScript
+- NodeJS
+- React
+- Next
 
 ## Author
 
@@ -90,38 +107,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Made with ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
