@@ -2,9 +2,9 @@
   <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
 </h1>
 
-<h1 align="center">Welcome to Maratona 2 👋</h1>
 
-![home](./resources/Discover2.jpeg) Building the Discover 2 SpaceShip
+
+![home](./resources/Capa.png) Building the Discover 2 SpaceShip
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.5 Implementing Login; Fixing_Instabilitis-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
