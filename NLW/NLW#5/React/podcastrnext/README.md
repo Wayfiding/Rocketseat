@@ -6,7 +6,7 @@
 
 ![home](./resources/Capa.png)
 
-<p>
+<p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-Updating Readmes-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -16,6 +16,12 @@
   </a>
   
 </p>
+<div align="center">
+Languages:
+
+[Portuguese :brazil:](README-ptbr.md)
+
+</div>
 <p align="center">
   <a href="#how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

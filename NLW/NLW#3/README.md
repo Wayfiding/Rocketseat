@@ -8,7 +8,7 @@
 
 
 <h1 align="center">Welcome to Happy Web 👋</h1>
-<p>
+<p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-Lauch Base-blue.svg?cacheSeconds=2592000" />
   <a href="Teste" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -16,10 +16,16 @@
   <a href="Teste" target="_blank">
     <img alt="License: Teste" src="https://img.shields.io/badge/License-Teste-yellow.svg" />
   </a>
-  <a href="https://twitter.com/Teste" target="_blank">
-    <img alt="Twitter: Teste" src="https://img.shields.io/twitter/follow/Teste.svg?style=social" />
-  </a>
+  
 </p>
+
+
+<div align="center">
+Languages:
+
+[Portuguese :brazil:](README-ptbr.md)
+
+</div>
 This project was developed during the Next Level Week and the aim of this project was to bring happiness to orphan childs visiting them.
 
 The project could not be finished because I could not watch all the event, yet I'm still looking to finish it.
