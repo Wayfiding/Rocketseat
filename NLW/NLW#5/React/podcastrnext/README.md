@@ -22,6 +22,7 @@ Languages:
 [Portuguese :brazil:](README-ptbr.md)
 
 </div>
+
 <p align="center">
   <a href="#how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
