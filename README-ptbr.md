@@ -3,7 +3,7 @@
 ![home](./resources/learn_never_ends.png) Never Stop Learning!
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.8.9a:Implementing Readme file on all projects and studies.-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE" target="[_blank](https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE)">
+  <a href="Test" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="<img alt=&#34;GitHub&#34; src=&#34;https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT&#34;>" target="_blank">
