@@ -144,7 +144,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Alberto Junior](https://github.com/wayfiding).<br />
-This project is [MIT](<img alt=&#34;GitHub&#34; src=&#34;https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT&#34;>) licensed.
+This project is [MIT](https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_ and by Alberto
