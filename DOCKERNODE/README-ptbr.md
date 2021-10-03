@@ -1,22 +1,22 @@
 
-<h1 align="center">Welcome to Docker Studies 👋</h1>
+<h1 align="center">Bem vindo aos estudos do Docker 👋</h1>
 
 ![home](./images/Cover.jpg)
 
 <p align="center">
-  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+  <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
-# About
-> On this studie were tested how to use Docker technology to create containers which we can configure a develop environment for our applications, so we can avoid that one application affect the other. This study was developed by Rocketseat on the following video [here](https://www.youtube.com/watch?v=AVNADGzXrrQ&list=PL-0rTJZW_Fs3F9vuu7HsE3rJVXlidgmMx&index=10&ab_channel=Rocketseat).
+# Sobre
+> Neste estudo foi testado como utilizar a tecnologia docker para criar container a qual pudessemos configurar ambientes de desenvolvimento para nossas aplicações, assim podemos evitar que uma aplicação afetasse a outra. Este estudo foi desenvolvido pela Rocketseat no seguinte video [aqui](https://www.youtube.com/watch?v=AVNADGzXrrQ&list=PL-0rTJZW_Fs3F9vuu7HsE3rJVXlidgmMx&index=10&ab_channel=Rocketseat).
 
 
 
-## How to Use
+## Como Usar
 If you want download this folder from this repository just follow this steps below:
 
 
@@ -36,7 +36,7 @@ Example:
 
 
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 This Project was developed using the following technologies:
 
 - JavaScript
@@ -44,13 +44,13 @@ This Project was developed using the following technologies:
 - Docker
 
 
-## Tools
+## Ferramentas
 On this project were used those tools:
 
 - Visual Studio
 - WebBrowser
 
-## Author
+## Autor
 
 👤 **Alberto Junior**
 
@@ -63,7 +63,7 @@ On this project were used those tools:
 
 Give a ⭐️ if this project helped you!
 
-## 📝 License
+## 📝 Licença
 
 Copyright © 2021 [Alberto Junior](https://github.com/wayfiding).<br />
 This project is [MIT](https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE) licensed.

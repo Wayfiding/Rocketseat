@@ -19,13 +19,15 @@
   
 </p>
 <p align="center">
+  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
- On this project was developed a application to help schedule the games along the week with your friend, the application use the Oauth2 to align it with your Discord Server and help you and your friend playing together.
+# About
+ >On this project was developed a application to help schedule the games along the week with your friend, the application use the Oauth2 to align it with your Discord Server and help you and your friend playing together.
  
 ## How to Use
 If you want download this folder from this repository just follow this steps below:
@@ -59,16 +61,12 @@ This Project was developed using the following technologies:
 
 ## Author
 
-👤 **Alberto Júnior**
+👤 **Alberto Junior**
 
-* Website: Teste
-* Twitter: [@Teste](https://twitter.com/Teste)
-* Github: [@Wayfiding](https://github.com/Wayfiding)
-* LinkedIn: [@Teste](https://linkedin.com/in/Teste)
 
-## 🤝 Contributing
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](Teste). You can also take a look at the [contributing guide](Teste).
 
 ## Show your support
 
@@ -76,8 +74,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
-This project is [Teste](Teste) licensed.
+Copyright © 2021 [Alberto Junior](https://github.com/wayfiding).<br />
+This project is [MIT](https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
