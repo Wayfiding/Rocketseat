@@ -137,7 +137,7 @@ Para este projeto foram utilizadas as seguintes ferramentas:
 
 Give a ⭐️ if this project helped you!
 
-## 📝 License
+## 📝 Licenças
 
 Copyright © 2021 [Alberto Junior](https://github.com/wayfiding).<br />
 This project is [MIT](https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE) licensed.
