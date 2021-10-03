@@ -14,9 +14,9 @@
 
 
 <div align="center">
-Languages:
+Linguas:
 
-[Portuguese :brazil:](README-ptbr.md)
+[English :us:](README.md)
 
 </div>
 
@@ -25,29 +25,29 @@ Languages:
 Menu
 =================
 <!--ts-->
-   * [Sobre](#about)
-   * [Tabela de Conteúdos](#table-of-contents)
-   * [Como Usar](#how-to-use)
-      * [Pré-Requisitos](#prerequisites)
+   * [Sobre](#sobre)
+   * [Tabela de Conteúdos](#tabela-de-conteúdos)
+   * [Como Usar](#como-usar)
+      * [Pré-Requisitos](#pré-requisitos)
       * [RocketSeat Repositório Completo](#rocketseat-full-repostory)
-      * [Pegue somente uma pasta](#pick-just-one-folder)
+      * [Pegue somente uma pasta](#pegue-somente-uma-pasta)
       * [Pegue Somente um Arquivo](#pick-just-one-file)
       
-   * [Tecnologias](#technologies)
-   * [Ferramentas](#tools)
-   * [Autor](#author)
+   * [Tecnologias](#tecnologias)
+   * [Ferramentas](#ferramentas)
+   * [Autor](#autor)
   
    * [Licenças](#licenses)
 <!--te-->
 
 
-# About
+# Sobre
 >
 Neste repositório você irá encontra alguns arquivos dos estudos e projetos dos bootcamps da RocketSeat
 
 
 
-# Table of Contents
+# Tabela de Conteúdos
 
 | Projetos  |     Links     | 
 |:----------|:-------------:|
@@ -61,17 +61,17 @@ Neste repositório você irá encontra alguns arquivos dos estudos e projetos do
 | SQL NODE.JS SEQUILIZE | [SQL_NODE.JS_SEQUILIZE](https://github.com/Wayfiding/Rocketseat/tree/main/SQL_NODE.JS_SEQUILIZE) |
 
 
-## How to use
+## Como Usar
 Escolha um projeto e clique, você será redirecionado para a pasta do respectivo repositório, lá você irá encontrar outro README explicando como utilizar o projeto e testa-lo em seu computador. 
 
 
 
-### **Prerequisites**
+### **Pré requisitos**
 Para poder utilizar as tecnologias providas aqui, você necessitará de um editor e um computador com Linux, Windows ou Mac.
 
 
 
-### **Pick just one folder**
+### **Pegue somente uma pasta**
 Se você quer somente uma pasta deste repositório, você pode clicar na pasta que quer ou na tabela de conteúdo e lá você irá encontrar um README explicando como baixar somente esta pasta. 
 
 Ou siga os seguintes passos:
@@ -93,15 +93,15 @@ Example:
 
 
 
-### Pick just one file
+### Pegue Somente um arquivo
 Under devolopment
 ### 🏠 [Homepage](Test)
 
 ### ✨ [Demo](Test)
 
-## Technologies
+## Tecnologias
 
-On this repository you will find many techonolgies been used.
+Neste repositório você encontrará as seguintes tecnologias sendo utilizadas:
 - HTML5
 - CSS3
 - JavaScript
@@ -114,8 +114,8 @@ On this repository you will find many techonolgies been used.
 - Docker
 
 
-## Tools
-For this projects and studies were used this tools:
+## Ferramentas
+Para este projeto foram utilizadas as seguintes ferramentas:
 
 - Visual Studio code
 - Insomnia
@@ -123,7 +123,7 @@ For this projects and studies were used this tools:
 - Discord
 - Atom
 
-## Author
+## Autor
 
 👤 **Alberto Junior**
 
@@ -133,7 +133,7 @@ For this projects and studies were used this tools:
 
 
 
-## Show your support
+## Mostre seu suporte
 
 Give a ⭐️ if this project helped you!
 
