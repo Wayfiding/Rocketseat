@@ -50,6 +50,7 @@ Menu
 | Projetos  |     Links     | 
 |:----------|:-------------:|
 | NextLevelWeek |  [NLW](https://github.com/Wayfiding/Rocketseat/tree/main/NLW) |
+| Podcastrnext |  [Podcast](https://github.com/Wayfiding/podcastrnext) |
 | Insta Post |    [Insta_Post](https://github.com/Wayfiding/Rocketseat/tree/main/Insta_Post)   |  
 | Discover/Maratona | [Discover](https://github.com/Wayfiding/Rocketseat/tree/main/Discover) |  
 | CRUD in 12Min | [CRUD_12Min](https://github.com/Wayfiding/Rocketseat/tree/main/CRUD_12MIN) | 
