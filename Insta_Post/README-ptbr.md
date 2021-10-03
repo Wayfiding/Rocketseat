@@ -1,5 +1,4 @@
-
-<h1 align="center">Bem vindo aos estudos do Docker 👋</h1>
+<h1 align="center">Bem vindo aos estudos do Electron 👋</h1>
 
 ![home](./images/Cover.jpg)
 
@@ -11,14 +10,12 @@
   <a href="#-licença">Licença</a>
 </p>
 
-
 Linguas:
 
 [English :us:](README.md)
 
-# Sobre
-> Neste estudo foi testado como utilizar a tecnologia docker para criar container a qual pudessemos configurar ambientes de desenvolvimento para nossas aplicações, assim podemos evitar que uma aplicação afetasse a outra. Este estudo foi desenvolvido pela Rocketseat no seguinte video [aqui](https://www.youtube.com/watch?v=AVNADGzXrrQ&list=PL-0rTJZW_Fs3F9vuu7HsE3rJVXlidgmMx&index=10&ab_channel=Rocketseat).
-
+## Sobre
+> Esta aplicaçao tem como objetivo abrir uma janela como uma messagem de alerta para nos ajudar a lembrar de postar mensagems no Instagram. Será utilizado o electron como framework para trazer uma aplicaçao multi-plataforma. Está aplicaçao foi desenvolvida por Mayk Brito da Rocketseat e você pode ver o video [aqui](https://www.youtube.com/watch?v=Mhd6x2Z-F_w&ab_channel=MaykBrito).
 
 
 ## Como Usar
@@ -46,7 +43,7 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 
 - JavaScript
 - NodeJS
-- Docker
+- Electron
 
 
 ## Ferramentas
