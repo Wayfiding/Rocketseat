@@ -11,6 +11,11 @@
   <a href="#-licença">Licença</a>
 </p>
 
+
+Linguas:
+
+[English :us:](README.md)
+
 # Sobre
 > Neste estudo foi testado como utilizar a tecnologia docker para criar container a qual pudessemos configurar ambientes de desenvolvimento para nossas aplicações, assim podemos evitar que uma aplicação afetasse a outra. Este estudo foi desenvolvido pela Rocketseat no seguinte video [aqui](https://www.youtube.com/watch?v=AVNADGzXrrQ&list=PL-0rTJZW_Fs3F9vuu7HsE3rJVXlidgmMx&index=10&ab_channel=Rocketseat).
 
@@ -59,7 +64,7 @@ On this project were used those tools:
 * LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
 
-## Show your support
+## Moste seu Suporte
 
 Give a ⭐️ if this project helped you!
 
