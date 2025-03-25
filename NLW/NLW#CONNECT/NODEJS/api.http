@@ -1,0 +1,37 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name":"Alberto Júnior Teste Inidicado 4",
+    //"email":"alberto.junior4@rocketseat.com.br",
+    "email":"alberto.junior555@rocketseat.com.br",
+    "referrer":"91a278dd-a1ee-49a7-971f-e2398db7fd40"
+}
+
+
+###
+
+GET http://localhost:3333/invites/87da54d2-b158-4f85-88e7-357f35c162b5
+
+
+
+###
+GET http://localhost:3333/subscribers/87da54d2-b158-4f85-88e7-357f35c162b5/ranking/clicks
+
+###
+# 705b56b8-08e9-40e8-830d-fea35b233e92
+
+
+###
+GET http://localhost:3333/subscribers/87da54d2-b158-4f85-88e7-357f35c162b5/ranking/count
+###
+GET http://localhost:3333/subscribers/87da54d2-b158-4f85-88e7-357f35c162b5/ranking/position
+###
+GET http://localhost:3333/ranking
+###
+POST  http://localhost:3333/messages
+Content-Type: application/json
+
+{
+    "message": "Me dê o nome dos usuários que estão sem pontuar no ranking!"
+}

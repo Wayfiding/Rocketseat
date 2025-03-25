@@ -12,9 +12,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@ai-sdk/groq": "^1.2.1",
     "@fastify/cors": "^10.0.2",
     "@fastify/swagger": "^9.4.2",
     "@fastify/swagger-ui": "^5.2.2",
+    "ai": "^4.2.2",
     "drizzle-orm": "^0.40.0",
     "fastify": "^5.2.1",
     "fastify-type-provider-zod": "^4.0.2",

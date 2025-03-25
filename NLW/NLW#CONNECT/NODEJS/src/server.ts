@@ -15,6 +15,7 @@ import { getRankingRoute } from "./routes/get-ranking-route";
 import { getSubscribersInviteClicksRoute } from "./routes/get-subscriber-invite-clicks-routes";
 import { getSubscribersInviteCountRoute } from "./routes/get-subscriber-invites-count-route";
 import { getSubscribersRankingPositionRoute } from "./routes/get-subscriber-ranking-position-routes";
+import { sendMessageRoute } from "./routes/send-message-route";
 import { subscribeToEventRoute } from "./routes/subscriber-to-event-route";
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -43,6 +44,7 @@ app.register(getSubscribersInviteClicksRoute);
 app.register(getSubscribersInviteCountRoute);
 app.register(getSubscribersRankingPositionRoute);
 app.register(getRankingRoute);
+app.register(sendMessageRoute);
 
 app.get("/hello", () => {
 	return "Hello World";
