@@ -10,9 +10,12 @@ import {
 	validatorCompiler,
 } from "fastify-type-provider-zod";
 import { env } from "./env";
-import { accessInviteLinkRoute } from "./routes/acces-invite-link";
-import { getSubscribersInviteClicksRoute } from "./routes/get-subscrible-invite-clicks-routes";
-import { subscribeToEventRoute } from "./routes/subscrible-to-event-route";
+import { accessInviteLinkRoute } from "./routes/acces-invite-link-routes";
+import { getRankingRoute } from "./routes/get-ranking-route";
+import { getSubscribersInviteClicksRoute } from "./routes/get-subscriber-invite-clicks-routes";
+import { getSubscribersInviteCountRoute } from "./routes/get-subscriber-invites-count-route";
+import { getSubscribersRankingPositionRoute } from "./routes/get-subscriber-ranking-position-routes";
+import { subscribeToEventRoute } from "./routes/subscriber-to-event-route";
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
 app.setSerializerCompiler(serializerCompiler);
@@ -37,6 +40,9 @@ app.register(fastifySwaggerUi, {
 app.register(subscribeToEventRoute);
 app.register(accessInviteLinkRoute);
 app.register(getSubscribersInviteClicksRoute);
+app.register(getSubscribersInviteCountRoute);
+app.register(getSubscribersRankingPositionRoute);
+app.register(getRankingRoute);
 
 app.get("/hello", () => {
 	return "Hello World";
