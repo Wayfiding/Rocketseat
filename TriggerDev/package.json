@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@trigger.dev/sdk": "^3.3.17",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "^3.3.17",
+    "@types/react": "19.1.2",
+    "typescript": "5.8.3"
+  },
+  "scripts": {
+    "trigger:dev": "npx trigger.dev@latest dev",
+    "dev": "npx concurrently --kill-others --names \"next,trigger\" --prefix-colors \"yellow,blue\" \"next dev\" \"npm run trigger:dev\""
+  }
+}
