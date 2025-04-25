@@ -58,6 +58,7 @@ Menu
 | API | [API](https://github.com/Wayfiding/Rocketseat/tree/main/API) |  
 | Serie-Node | [serie-node](https://github.com/Wayfiding/Rocketseat/tree/main/serie-node) |
 | SQL NODE.JS SEQUILIZE | [SQL_NODE.JS_SEQUILIZE](https://github.com/Wayfiding/Rocketseat/tree/main/SQL_NODE.JS_SEQUILIZE) |
+| Trigger Dev | [Trigger Dev](https://github.com/Wayfiding/Rocketseat/tree/main/TriggerDev) |
 
 
 ## How to use
