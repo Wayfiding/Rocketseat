@@ -3,7 +3,7 @@ node_modules/
 assets.zip
 Discover/Maratona_2/database.sqlite
 ./podcastrnext/
-
+dist
 
 # React Native git ignore updated here
 
@@ -19,11 +19,9 @@ web-build/
 
 # macOS
 .DS_Store
-<<<<<<< HEAD
 #Gameplay sensitive data
 NLW/NLW#together/react_native/gameplay/src/configs/discordAuth.ts
 .env
-=======
 
 
 
@@ -39,4 +37,3 @@ NLW/NLW#together/react_native/gameplay/src/configs/discordAuth.ts
 
 #Wallpapers
 Wallpapers/
->>>>>>> 1954df4c1c8f39eb578fefe0d1d6410df619bca0

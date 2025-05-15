@@ -49,7 +49,9 @@ export class Database {
     
     update(table,id,data){
         const rowIndex = this.#database[table].findIndex(row=>row.id === id)
-        
+        if (rowIndex === -1) {
+            return false; // Indica que o registro não existe
+          }
         const { completed_at, created_at,description,title } = this.#database[table][rowIndex]
         const updated_at = new Date()
         if(rowIndex > -1){

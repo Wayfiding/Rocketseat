@@ -11,15 +11,36 @@ Content-Type: application/json
 
 {
     "title":"Análise de Testes 2",
+}
+
+
+###
+POST http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+    "title":"Análise de Testes 2",
     "description":"Testes de inserção no Banco de Dados 2"
 }
 
 ###
-PUT http://localhost:3333/tasks/96d89259-edc1-45b4-91cc-ff3a74fb3333
+POST http://localhost:3333/tasks
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryABC123
+
+----WebKitFormBoundaryABC123
+Content-Disposition: form-data; name="arquivo_csv"; filename="tasks.csv"
+Content-Type: text/csv
+
+< ./tasks.csv
+----WebKitFormBoundaryABC123--
+
+###
+PUT http://localhost:3333/tasks/11111
 Content-Type: application/json
 
 {
-    "title":"Análise de Testes 32"
+    "title":"Análise de Testes 32",
+    "description":"Testes de inserção no Banco de Dados 2"
     
 }
 
