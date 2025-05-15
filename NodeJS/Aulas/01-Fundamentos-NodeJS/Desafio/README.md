@@ -127,8 +127,13 @@ title,description
 ## 📥 Como Executar
 
 ```
-# Clone o repositório
-git clone https://github.com/seu-user/ignite-nodejs-01.git
+# Clone o  somente a pasta do repositório
+
+git clone --filter=blob:none --no-checkout https://github.com/Wayfiding/Rocketseat.git
+cd Rocketseat
+git sparse-checkout init --cone
+git sparse-checkout set NodeJS/Aulas/01-Fundamentos-NodeJS/Desafio
+git checkout main
 
 # Instale as dependências
 npm install
