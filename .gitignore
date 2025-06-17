@@ -37,3 +37,7 @@ NLW/NLW#together/react_native/gameplay/src/configs/discordAuth.ts
 
 #Wallpapers
 Wallpapers/
+
+
+#Aulas de nodes
+tmp/app.db
