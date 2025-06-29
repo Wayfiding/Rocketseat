@@ -6,7 +6,7 @@ app
     port: env.PORT,
   })
   .then(() => {
-    console.log('HTTP Server running on http://localhost:3333')
+    console.log('HTTP Server running.')
   })
   .catch((err) => {
     console.error('Error starting server:', err)

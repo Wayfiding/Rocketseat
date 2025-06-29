@@ -5,12 +5,9 @@ if (process.env.NODE_ENV === 'test') {
 } else {
   config({ path: '.env' })
 }
-console.log(process.env.NODE_ENV)
 
 const envSchema = z.object({
-  NODE_ENV: z
-    .enum(['development', 'test', 'production'])
-    .default('development'),
+  NODE_ENV: z.enum(['development', 'test', 'production']).default('production'),
   DATABASE_CLIENT: z.enum(['sqlite3', 'pg']),
   DATABASE_URL: z.string(),
   PORT: z.coerce.number().default(3333),
@@ -20,6 +17,5 @@ if (_env.success === false) {
   console.error('Invalid environment variables:', _env.error.format())
   throw new Error('Invalid environment variables')
 }
-console.log(envSchema.parse(_env.data))
 
 export const env = _env.data
