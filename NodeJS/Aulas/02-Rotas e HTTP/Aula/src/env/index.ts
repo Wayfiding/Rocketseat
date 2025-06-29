@@ -11,6 +11,7 @@ const envSchema = z.object({
   DATABASE_CLIENT: z.enum(['sqlite3', 'pg']),
   DATABASE_URL: z.string(),
   PORT: z.coerce.number().default(3333),
+  HOST: z.string().optional(), // Torna opcional para setar depois
 })
 const _env = envSchema.safeParse(process.env)
 if (_env.success === false) {
@@ -18,4 +19,9 @@ if (_env.success === false) {
   throw new Error('Invalid environment variables')
 }
 
-export const env = _env.data
+const envData = _env.data
+
+// Define o HOST conforme o ambiente
+envData.HOST = envData.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost'
+
+export const env = envData
