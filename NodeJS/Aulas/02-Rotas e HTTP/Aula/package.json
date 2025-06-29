@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "node --import tsx ./node_modules/.bin/knex",
+    "knex": "node --no-warnings --import tsx ./node_modules/.bin/knex",
     "build": "tsup src -d build",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest"
