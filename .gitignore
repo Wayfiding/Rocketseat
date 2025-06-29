@@ -40,4 +40,8 @@ Wallpapers/
 
 
 #Aulas de nodes
-tmp/app.db
+db/*.db
+.env
+.env.test
+build
+node_modules
