@@ -1,0 +1,31 @@
+{
+  "name": "nlw-agents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prod": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts",
+    "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts",
+    "db:seed": "node --env-file .env --experimental-strip-types --no-warnings  src/db/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "2.1.2",
+    "@types/node": "^24.0.13",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-seed": "^0.3.1",
+    "typescript": "^5.8.3",
+    "ultracite": "5.0.46"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "drizzle-orm": "^0.44.3",
+    "fastify": "^5.4.0",
+    "fastify-type-provider-zod": "^5.0.2",
+    "postgres": "^3.4.7",
+    "zod": "^4.0.5"
+  }
+}
