@@ -5,28 +5,28 @@
   "main": "electron/main.js",
   "scripts": {
     "start": "electron .",
-    "build": "npx electron-package . --icon assets/instagram.png --out=packages",
+    "build": "npx electron-packager . --icon assets/instagram.png --out=packages",
     "dist": "electron-builder --windows"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^12.0.1"
+    "electron": "^12.0.1",
+    "electron-packager": "^17.1.2"
   },
   "build": {
     "appId": "com.example.app",
     "mac": {
       "category": "your.app.category.type"
     },
-    
     "directories": {
-      "buildResources":"resources",
-      
-      "output":"distro"
+      "buildResources": "resources",
+      "output": "distro"
     },
-    "files":["resources/instagram.*","./electron/main.js"]
-    
+    "files": [
+      "resources/instagram.*",
+      "./electron/main.js"
+    ]
   }
-  
 }

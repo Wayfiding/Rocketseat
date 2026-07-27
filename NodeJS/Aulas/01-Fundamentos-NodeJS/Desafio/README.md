@@ -1,180 +1,91 @@
-# 🌟 Desafio 01 - CRUD de Tasks com CSV Import
+<h1 align="center">
+  <img alt="Desafio 01 - CRUD de Tasks com CSV Import" title="Desafio 01 - CRUD de Tasks com CSV Import" src="" width="220px" />
+</h1>
 
-**Módulo**: Fundamentos do Node.js  
-**Trilha**: Ignite Node.js  
-**Dificuldade**: Intermediário  
+![home](./resources/Capa.png) CRUD de Tasks com CSV Import
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+<div align="right">
+Languages:
+[Portuguese :brazil:](README-ptbr.md)
+</div>
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js) ![Express](https://img.shields.io/badge/Express-4.x-lightgrey?logo=express) ![TypeScript](https://img.shields.io/badge/TypeScript-Opcional-blue?logo=typescript)
+## 💻 Project
+Bem-vindo(a) ao primeiro desafio da trilha de Node.js! Aqui você consolidará os conceitos fundamentais aprendidos no módulo, construindo uma API completa com CRUD de tasks e um bônus desafiador: importação em massa via CSV.
 
----
+O projeto consiste em:
+- CRUD de tasks (Create, Read, Update, Delete)
+- Marcar task como completa/incompleta
+- Importação em massa de tasks via arquivo CSV usando Streams
 
-## 🎯 Introdução
+## 🚀 Technologies
+This Project was developed using the following technologies:
+- Node.js (v18+)
+- Express
+- TypeScript
+- UUID
+- CSV Parser
+- Jest
 
-Bem-vindo(a) ao primeiro desafio da trilha de Node.js!  
-Aqui você consolidará os conceitos fundamentais aprendidos no módulo, construindo uma API completa com **CRUD de tasks** e um bônus desafiador: **importação em massa via CSV**.
+## Tools
+- Visual Studio Code
 
-> 💡 **Dica**: Respire fundo, pesquise e confie no seu processo! O aprendizado aqui é valioso.  
-> *"Não é sobre perfeição, é sobre progresso."* — Rocketseat
+## 🔖 Layout
+Você pode visualizar o layout do projeto através [desse link](#).
 
----
+## How to Use
+If you want download this folder from this repository just follow this steps below:
 
-## 📋 Requisitos do Desafio
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
 
-### 🔧 Funcionalidades Obrigatórias
-- [x] **CRUD** de tasks (Create, Read, Update, Delete)
-- [x] Marcar task como completa/incompleta
-- [x] **Importação em massa** de tasks via arquivo CSV
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+> https://github.com/User/somerepo/trunk/folderyouwant 
 
-### 🏷️ Estrutura da Task
-| Campo           | Tipo        | Descrição                              |
-|-----------------|-------------|----------------------------------------|
-| `id`           | `UUID`      | Identificador único                   |
-| `title`        | `string`    | Título da task (obrigatório)          |
-| `description`  | `string`    | Descrição detalhada                   |
-| `completed_at` | `Date`      | Data de conclusão (`null` se incompleta) |
-| `created_at`   | `Date`      | Data de criação                       |
-| `updated_at`   | `Date`      | Data da última atualização            |
-
----
-
-## 🚀 Rotas da API
-
-### 📌 POST `/tasks`
-**Cria uma nova task**  
-✅ Body (JSON):
-```json
-{
-  "title": "Estudar Node.js",
-  "description": "Finalizar o desafio 01"
-}
+3.Go to the command Line and just grab the folder with SVN
+```sh
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
-🔹 Regras:
 
-    created_at, updated_at e id gerados automaticamente
-
-    completed_at inicia como null
-
-### 📌 GET /tasks
-
-Lista todas as tasks
-🔹 Filtros opcionais por query params:
-bash
-
-/tasks?title=Estudar&description=Node
-
-### 📌 PUT /tasks/:id
-
-Atualiza uma task
-✅ Body (JSON):
-json
-
-{
-  "title": "Estudar Express",
-  "description": "Aprender middlewares"
-}
-
-🔹 Regras:
-
-    Valida se o id existe
-
-    Atualiza apenas campos enviados
-
-### 📌 DELETE /tasks/:id
-
-Remove uma task
-
-🔹 Regras:
-
-    Valida se o id existe antes de deletar
-
-### 📌 PATCH /tasks/:id/complete
-
-Alterna status completo/incompleto
-
-🔹 Lógica:
-
-    Se completed_at for null, define como data atual
-
-    Se já estiver completo, redefine para null
-
-🎁 Bônus: Importação via CSV
-
-POST /tasks/import
-
-### 📤 Envie um arquivo CSV no formato:
-
-
-title,description
-"Ler livro","Node.js Design Patterns"
-"Praticar","Escrever testes"
-
-🔹 Implementado com Streams para eficiência em grandes arquivos.
-(Detalhes técnicos: Documentação do Stream)
-
-
-## 🛠️ Tecnologias Utilizadas
-
-    Node.js (v18+)
-
-    Express (Rotas e middlewares)
-
-    UUID (Geração de IDs únicos)
-
-    CSV Parser (Stream de dados para importação)
-
-    Jest (Opcional para testes)
-
-## 📥 Como Executar
-
+## Install
+To use this application you have to download Node and run:
+```sh
+npm install 
 ```
-# Clone o  somente a pasta do repositório
 
-git clone --filter=blob:none --no-checkout https://github.com/Wayfiding/Rocketseat.git
-cd Rocketseat
-git sparse-checkout init --cone
-git sparse-checkout set NodeJS/Aulas/01-Fundamentos-NodeJS/Desafio
-git checkout main
-
-# Instale as dependências
-npm install
-
-# Inicie a API
+## Usage
+```sh
 npm run dev
 ```
 
-## 📚 Extras Implementados
+## Author
+👤 **Alberto Junior**
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
-    Validação de campos obrigatórios (title e description)
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
 
-    Mensagens de erro customizadas (ex: "Task não encontrada")
+## Show your support
+Give a ⭐️ if this project helped you!
 
-    Filtro combinado (title + description)
-
-## 🎨 Exemplo de Uso
-```
-
-POST /tasks
-Content-Type: application/json
-
-{
-  "title": "Postar no LinkedIn",
-  "description": "Compartilhar aprendizado do desafio"
-}
-```
-
-Resposta:
-json
-```
-{
-  "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
-  "title": "Postar no LinkedIn",
-  "description": "Compartilhar aprendizado do desafio",
-  "completed_at": null,
-  "created_at": "2023-10-20T12:00:00.000Z",
-  "updated_at": "2023-10-20T12:00:00.000Z"
-}
-```
-
-Feito com 💜 por Alberto Júnior
-
-Inspirado no desafio da Rocketseat
+## 📝 License
+Esse projeto está sob a licença MIT. 
+---
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto

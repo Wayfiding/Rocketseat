@@ -1,39 +1,81 @@
-<h1 align="center">Welcome to Rockeseat Trigger Dev Study 👋</h1>
+<h1 align="center">
+  <img alt="Trigger Dev Study" title="Trigger Dev Study" src="" width="220px" />
+</h1>
 
-<p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Studies of Trigger Dev-blue.svg?cacheSeconds=2592000" />
-  <a href="Test" target="_blank">
+![home](./resources/Capa.png) Rocketseat Trigger Dev Study
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE" target="_blank">
+  <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
- 
+</p>
+<div align="right">
+Languages:
+[Portuguese :brazil:](README-ptbr.md)
+</div>
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
-# About
->On this study was aimed to learn more about this backgrounds jobs to creat a workflow that helps our deploy and tests. This tool still on my checklist of knowledge, look for a way to introduce it on my workflow.
+## 💻 Project
+On this study was aimed to learn more about this backgrounds jobs to creat a workflow that helps our deploy and tests. This tool still on my checklist of knowledge, look for a way to introduce it on my workflow.
 
+## 🚀 Technologies
+This Project was developed using the following technologies:
+- Trigger Dev
 
+## Tools
+- Visual Studio Code
 
+## 🔖 Layout
+Você pode visualizar o layout do projeto através [desse link](#).
+
+## How to Use
+If you want download this folder from this repository just follow this steps below:
+
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
+
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+> https://github.com/User/somerepo/trunk/folderyouwant 
+
+3.Go to the command Line and just grab the folder with SVN
+```sh
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
+```
+
+## Install
+To use this application you have to download Node and run:
+```sh
+npm install 
+```
+
+## Usage
+```sh
+npm run dev
+```
 
 ## Author
-
 👤 **Alberto Junior**
-
-
 * Github: [Alberto Júnior](https://github.com/wayfiding)
 * LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
 
 ## Show your support
-
 Give a ⭐️ if this project helped you!
 
 ## 📝 License
-
-Copyright © 2021 [Alberto Junior](https://github.com/wayfiding).<br />
-This project is [MIT](https://github.com/Wayfiding/Rocketseat/blob/main/LICENSE) licensed.
-
+Esse projeto está sob a licença MIT. 
+---
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto

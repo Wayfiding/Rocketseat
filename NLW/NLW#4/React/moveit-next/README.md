@@ -1,38 +1,30 @@
 <h1 align="center">
-  <img src="/.github/moveit.png" />
+  <img alt="Moveit" title="Moveit" src="/.github/moveit.png" width="220px" />
 </h1>
 
+![home](./resources/Moveit.png) Moveit
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.4.5a:Implementing Dark--Mode-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/Wayfiding/Rocketseat/blob/main/serie-node/README.md" target="_blank">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" target="_blank">
-    <img alt="License: https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" src="https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
-
-
-
-![home](./resources/Moveit.png) 
+<div align="right">
+Languages:
+[Portuguese :brazil:](README-ptbr.md)
+</div>
 <p align="center">
- <a href="#page_facing_up-about">About</a> •
- <a href="#dart-function">Function</a> •
- <a href="#space_invader-how-to-use-this-application">How to use this application</a> •
- <a href="#application">Technologies Used</a> •
-  <a href="#tools">Application Layout and Tools</a> •
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
-### 🏠 [Hospedagem](https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
->Click on the link above to see this aplication.
-
-## :page_facing_up: About
+## 💻 Project
 This project is cronometer that use the pomodoro technique and at the end of each cycle the user receives a challenge, this challenges has the purpose of reduct the injuries for repetitive movement. That application was developed during NLW#4 - React Track, offered by Rocketseat over 5 days of marathon.
-
-
-
-
-## :dart: Function
 
 This application requires a permition to send notification, which need to be allowed by the user. It function ís notify the user the end of the cycle. In addition of this sound notification there is visual notification.
 
@@ -40,91 +32,60 @@ When the cycles focus ends, the user is informed by a new challenge and his poin
 
 For Each level advance are exhibited a modal with the new level achieved. If the page is update, the information will be recovered by the cookies.
 
+## 🚀 Technologies
+This Project was developed using the following technologies:
+- ReactJS
+- Next.js
+- TypeScript
+- js-cookie
 
-## :space_invader: How to use this application
+## Tools
+- VSCode
+- Figma
 
-### Prerequisite
+## 🔖 Layout
+Você pode visualizar o layout do projeto através [desse link](#).
 
-You need to have this softwares on yout machine:
-* [Node.js](https://nodejs.org/en/)
-* [VSCode](https://code.visualstudio.com/) - Code Edit recommended
+## How to Use
+If you want download this folder from this repository just follow this steps below:
 
+1. Copy the url from your browser;
+2. Replace the 'tree/main' or 'tree/master' with trunk;
 
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+> https://github.com/User/somerepo/trunk/folderyouwant 
 
-### Execute this Application
-
-### Download this folder from Github repository
-```
-svn checkout  https://github.com/Wayfiding/Rocketseat/trunk/NLW/NLW%234/React/moveit-next
-
-```
-
-#### **Access this folder from terminal:**
-
+3.Go to the command Line and just grab the folder with SVN
 ```sh
-cd moveit-next
-```
-#### **Install the dependencies**
- 
-**npm**  
-```sh 
-npm install
-```
-or
-
-**yarn**
-```sh 
-npm install -g yarn
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
 
-```sh 
-yarn install
+## Install
+To use this application you have to download Node and run:
+```sh
+npm install 
 ```
 
-#### **Usage**
-
-**npm** 
+## Usage
 ```sh
 npm run dev
 ```
-or
 
-**yarn**
-```sh
-yarn dev
-```
-
-#### **Run tests**
-
-```sh
-Access http://localhost:3000, to use this application
-```
-## Application
-This application was developed with:
-
-• [ReactJS](https://pt-br.reactjs.org/) 
-• [Next.js](https://nextjs.org/) 
-• [TypeScript](https://www.typescriptlang.org/) 
-• [js-cookie](https://github.com/js-cookie/js-cookie)
-
-## Tools
-• Editor de código -> [VSCode](https://code.visualstudio.com/)
-• Fontes -> [Inter](https://fonts.google.com/specimen/Inter) & [Rajdhani](https://fonts.google.com/specimen/Rajdhani)
-• Prototipagem -> [Figma](https://www.figma.com/)
 ## Author
-
 👤 **Alberto Junior**
+* Github: [Alberto Júnior](https://github.com/wayfiding)
+* LinkedIn: [Alberto Souza](https://linkedin.com/in/alberto-souza)
 
-* Website: (https://react-nlw4-5oqkmuw3d-wayfiding.vercel.app/)
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
 
 ## Show your support
-
 Give a ⭐️ if this project helped you!
 
 ## 📝 License
-
-Copyright © 2021 [Alberto Junior](https://github.com/wayfiding).<br />
-This project is [MIT](<img alt=&#34;GitHub&#34; src=&#34;https://img.shields.io/github/license/wayfiding/ROCKETSEAT?color=MIT&logo=MIT&logoColor=MIT&#34;>) licensed.
-
+Esse projeto está sob a licença MIT. 
+---
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
 ***
-This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and took some tips from [@gabjohann](https://github.com/gabjohann).
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto
